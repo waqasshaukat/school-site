@@ -1,95 +1,67 @@
-import Image from "next/image";
-import styles from "./page.module.css";
+import Image from 'next/image';
+import Link from 'next/link';
+import styles from './page.module.css';
 
-export default function Home() {
+const HomePage = () => {
   return (
-    <div className={styles.page}>
-      <main className={styles.main}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol>
-          <li>
-            Get started by editing <code>src/app/page.tsx</code>.
-          </li>
-          <li>Save and see your changes instantly.</li>
-        </ol>
+    <div>
+      {/* Hero Section */}
+      <div className={styles.hero}>
+        <h1 className="mb-3">Welcome to Springfield Elementary</h1>
+        <p className="mb-3">Nurturing young minds for a bright future.</p>
+        <p>Explore our website to learn more about our school and how to enroll.</p>
+      </div>
 
-        <div className={styles.ctas}>
-          <a
-            className={styles.primary}
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className={styles.logo}
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-            className={styles.secondary}
-          >
-            Read our docs
-          </a>
+      {/* Quick Links Section */}
+      <div className="container py-5">
+        <div className="row text-center">
+          <div className="col-md-4">
+            <h3>About Us</h3>
+            <p>Learn about our mission, vision, and values.</p>
+            <Link href="/about" className="btn btn-secondary">
+              Learn More
+            </Link>
+          </div>
+          <div className="col-md-4">
+            <h3>Academics</h3>
+            <p>Explore our curriculum and academic programs.</p>
+            <Link href="/academics" className="btn btn-secondary">
+              Explore
+            </Link>
+          </div>
+          <div className="col-md-4">
+            <h3>News & Events</h3>
+            <p>Stay up-to-date with the latest school news and events.</p>
+            <Link href="/news" className="btn btn-secondary">
+              View News
+            </Link>
+          </div>
         </div>
-      </main>
-      <footer className={styles.footer}>
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
+      </div>
+
+      {/* Principal's Message Section */}
+      <div className="container py-5">
+        <div className="row align-items-center">
+          <div className="col-md-6">
+            <h2 className="mb-4">Principal's Message</h2>
+            <p className="lead">
+              "Welcome to Springfield Elementary, where we are dedicated to fostering a love for learning in a supportive and engaging environment. Our goal is to empower every student to achieve their full potential, both academically and personally. We believe in a holistic approach to education, encouraging curiosity, creativity, and critical thinking. We look forward to partnering with you in your child's educational journey."
+            </p>
+            <p className="mt-3">- Principal Jane Doe</p>
+          </div>
+          <div className="col-md-6" style={{ paddingLeft: '10%' }}>
+            <Image
+              src="/Waqas.jpeg"
+              alt="Principal Waqas"
+              width={400}
+              height={400}
+              className="img-fluid rounded-circle shadow-lg"
+            />
+          </div>
+        </div>
+      </div>
     </div>
   );
-}
+};
+
+export default HomePage;
