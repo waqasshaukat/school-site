@@ -35,6 +35,10 @@ a {
   text-decoration: none;
 }
 
+.footer {
+  color: #000;
+}
+
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;

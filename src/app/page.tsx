@@ -1,3 +1,4 @@
+import Gallery from '@/components/Gallery';
 import Image from 'next/image';
 import Link from 'next/link';
 import styles from './page.module.css';
@@ -9,7 +10,7 @@ const HomePage = () => {
       <div className={styles.hero}>
         <h1 className="mb-3">Welcome to Springfield Elementary</h1>
         <p className="mb-3">Nurturing young minds for a bright future.</p>
-        <p>Explore our website to learn more about our school and how to enroll.</p>
+        
       </div>
 
       {/* Quick Links Section */}
@@ -60,6 +61,7 @@ const HomePage = () => {
           </div>
         </div>
       </div>
+      <Gallery />
     </div>
   );
 };

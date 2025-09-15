@@ -13,8 +13,8 @@ const Header = () => {
   const closeModal = () => setIsModalOpen(false);
 
   return (
-    <header>
-      <nav className="navbar navbar-expand-lg navbar-light bg-light">
+    <header className="sticky-top">
+      <nav className="navbar navbar-expand-lg navbar-light bg-light sticky-top">
         <div className="container">
           <Link href="/" className="navbar-brand">
             <FontAwesomeIcon icon={faGraduationCap} className="me-2" />
