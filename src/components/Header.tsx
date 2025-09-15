@@ -18,11 +18,11 @@ const Header = () => {
         <div className="container">
           <Link href="/" className="navbar-brand">
             <FontAwesomeIcon icon={faGraduationCap} className="me-2" />
-            <strong>Springfield Elementary</strong>
+            <strong>Springfield<span className="d-none d-lg-inline"> Elementary</span></strong>
           </Link>
           <div className="d-lg-none">
             <button className="btn btn-primary" onClick={openModal}>
-              Enroll Now
+              Apply
             </button>
           </div>
           <button

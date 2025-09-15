@@ -10,6 +10,7 @@ const AdmissionForm = () => {
     message: '',
   });
   const [status, setStatus] = useState('');
+  const [statusType, setStatusType] = useState('');
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     setFormData({ ...formData, [e.target.id]: e.target.value });
@@ -18,6 +19,7 @@ const AdmissionForm = () => {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setStatus('Submitting...');
+    setStatusType('');
 
     try {
       const response = await fetch('/api/submit-form', {
@@ -30,6 +32,7 @@ const AdmissionForm = () => {
 
       if (response.ok) {
         setStatus('Form submitted successfully!');
+        setStatusType('success');
         setFormData({
           studentName: '',
           parentName: '',
@@ -39,9 +42,11 @@ const AdmissionForm = () => {
         });
       } else {
         setStatus('An error occurred. Please try again.');
+        setStatusType('error');
       }
     } catch (error) {
       setStatus('An error occurred. Please try again.');
+      setStatusType('error');
     }
   };
 
@@ -85,7 +90,7 @@ const AdmissionForm = () => {
           Submit
         </button>
       </div>
-      {status && <p style={{ color: 'red' }}>{status}</p>}
+      {status && <p style={{ color: statusType === 'success' ? 'green' : 'red' }}>{status}</p>}
     </form>
   );
 };
