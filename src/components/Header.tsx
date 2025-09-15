@@ -20,8 +20,13 @@ const Header = () => {
             <FontAwesomeIcon icon={faGraduationCap} className="me-2" />
             <strong>Springfield Elementary</strong>
           </Link>
+          <div className="d-lg-none">
+            <button className="btn btn-primary" onClick={openModal}>
+              Enroll Now
+            </button>
+          </div>
           <button
-            className="navbar-toggler"
+            className="navbar-toggler d-none"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbarNav"
@@ -63,7 +68,7 @@ const Header = () => {
                   Contact
                 </Link>
               </li>
-              <li className="nav-item">
+              <li className="nav-item d-none d-lg-block">
                 <button className="btn btn-primary ms-lg-3" onClick={openModal}>
                   Enroll Now
                 </button>
