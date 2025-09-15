@@ -43,9 +43,9 @@ const HomePage = () => {
       <div className="container py-5">
         <div className="row align-items-center">
           <div className="col-md-6">
-            <h2 className="mb-4">Principal's Message</h2>
+            <h2 className="mb-4">Principal&apos;s Message</h2>
             <p className="lead">
-              "Welcome to Springfield Elementary, where we are dedicated to fostering a love for learning in a supportive and engaging environment. Our goal is to empower every student to achieve their full potential, both academically and personally. We believe in a holistic approach to education, encouraging curiosity, creativity, and critical thinking. We look forward to partnering with you in your child's educational journey."
+              &quot;Welcome to Springfield Elementary, where we are dedicated to fostering a love for learning in a supportive and engaging environment. Our goal is to empower every student to achieve their full potential, both academically and personally. We believe in a holistic approach to education, encouraging curiosity, creativity, and critical thinking. We look forward to partnering with you in your child&apos;s educational journey.&quot;
             </p>
             <p className="mt-3">- Principal Jane Doe</p>
           </div>

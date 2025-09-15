@@ -17,7 +17,7 @@ const NewsPage = () => {
         <div className="card-body">
           <h5 className="card-title">Parent-Teacher Conferences</h5>
           <p className="card-text">
-            Parent-teacher conferences will be held on October 15th and 16th. Please sign up for a time slot with your child's teacher.
+            Parent-teacher conferences will be held on October 15th and 16th. Please sign up for a time slot with your child&apos;s teacher.
           </p>
           <p className="card-text">
             <small className="text-muted">Posted on August 25, 2025</small>

@@ -3,7 +3,7 @@ const AdmissionsPage = () => {
     <div className="py-5">
       <h1>Admissions</h1>
       <p>
-        We are excited that you are considering Springfield Elementary for your child's education. Our admissions process is designed to be as simple and straightforward as possible.
+        We are excited that you are considering Springfield Elementary for your child&apos;s education. Our admissions process is designed to be as simple and straightforward as possible.
       </p>
       <h2>How to Apply</h2>
       <ol>

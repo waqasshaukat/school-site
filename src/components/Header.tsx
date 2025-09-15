@@ -2,7 +2,7 @@
 import Link from 'next/link';
 import { useState } from 'react';
 import Modal from './Modal';
-import AdmissionForm from './AdmissionForm';
+import AdmissionForm from '@/components/AdmissionForm';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGraduationCap } from '@fortawesome/free-solid-svg-icons';
 

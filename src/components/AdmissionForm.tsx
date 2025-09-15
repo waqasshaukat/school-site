@@ -52,13 +52,13 @@ const AdmissionForm = () => {
       <h3 className="mb-3">Admission Form</h3>
       <div className="mb-3">
         <label htmlFor="studentName" className="form-label">
-          Student's Name <span style={{ color: 'red' }}>*</span>
+          Student&apos;s Name <span style={{ color: 'red' }}>*</span>
         </label>
         <input type="text" className="form-control" id="studentName" value={formData.studentName} onChange={handleChange} />
       </div>
       <div className="mb-3">
         <label htmlFor="parentName" className="form-label">
-          Parent's Name <span style={{ color: 'red' }}>*</span>
+          Parent&apos;s Name <span style={{ color: 'red' }}>*</span>
         </label>
         <input type="text" className="form-control" id="parentName" value={formData.parentName} onChange={handleChange} />
       </div>
