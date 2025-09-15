@@ -14,7 +14,7 @@ export async function POST(req: NextRequest) {
       fs.mkdirSync(dataDir);
     }
 
-    const filePath = path.join(dataDir, 'admissions.xlsx');
+    const filePath = path.join("/tmp", "admissions.xlsx");
 
     const workbook = new ExcelJS.Workbook();
     let worksheet;
