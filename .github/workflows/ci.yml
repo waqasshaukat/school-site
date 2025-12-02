@@ -36,23 +36,5 @@ jobs:
       - name: Run tests
         run: npm test -- --ci --coverage --maxWorkers=2
 
-      - name: Upload test results to Mergify CI Insights
-        if: always()
-        uses: mergifyio/gha-mergify-ci@v6
-        with:
-          token: ${{ secrets.MERGIFY_TOKEN }}
-          report_path: test-results/*.xml
-
-      - name: Upload coverage reports
-        uses: codecov/codecov-action@v4
-        if: always()
-        with:
-          files: ./coverage/coverage-final.json
-          flags: unittests
-          name: codecov-umbrella
-          fail_ci_if_error: false
-        env:
-          CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
-
       - name: Build project
         run: npm run build

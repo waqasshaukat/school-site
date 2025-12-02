@@ -1,6 +1,9 @@
 name: Flaky Test Detection
 
 on:
+  push:
+    branches:
+      - '**'  # Run on all branches
   pull_request:
   schedule:
     - cron: '0 */12 * * 1-5'  # Every 12 hours, Monday to Friday
@@ -40,6 +43,6 @@ jobs:
         if: always()
         uses: mergifyio/gha-mergify-ci@v6
         with:
-          flaky_test_detection: true
+          flaky_test_detection: 'true'
           token: ${{ secrets.MERGIFY_TOKEN }}
           report_path: test-results/*.xml
