@@ -34,8 +34,11 @@ jobs:
           for i in $(seq $RUN_COUNT); do
             echo "Running test suite - attempt $i of $RUN_COUNT"
 
-            # Run your test command with unique output file, e.g.:
-            npm test -- --ci --maxWorkers=2 --reporters=default --reporters=jest-junit --testResultsProcessor=jest-junit
+            # Set unique output filename for each run
+            export JEST_JUNIT_OUTPUT_NAME="junit-run-$i.xml"
+
+            # Run your test command with unique output file
+            npm test -- --ci --maxWorkers=2 --reporters=default --reporters=jest-junit
           done
 
       # Upload all test results to CI Insights

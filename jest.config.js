@@ -37,7 +37,7 @@ const customJestConfig = {
       'jest-junit',
       {
         outputDirectory: './test-results',
-        outputName: 'junit.xml',
+        outputName: process.env.JEST_JUNIT_OUTPUT_NAME || 'junit.xml',
         ancestorSeparator: ' › ',
         uniqueOutputName: 'false',
         suiteNameTemplate: '{filepath}',
