@@ -39,7 +39,7 @@ const customJestConfig = {
         outputDirectory: './test-results',
         outputName: 'junit.xml',
         ancestorSeparator: ' › ',
-        uniqueOutputName: 'true',
+        uniqueOutputName: 'false',
         suiteNameTemplate: '{filepath}',
         classNameTemplate: '{classname}',
         titleTemplate: '{title}',
