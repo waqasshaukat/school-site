@@ -1,0 +1,57 @@
+name: Flaky Test Detection
+
+on:
+  push:
+    branches:
+      - '**'  # Run on all branches
+  pull_request:
+  schedule:
+    - cron: '0 */12 * * 1-5'  # Every 12 hours, Monday to Friday
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20.x'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      # Modified: Run tests multiple times for flaky detection
+      - name: Run tests
+        env:
+          # Run tests 5 times on schedule, once on pull_request
+          RUN_COUNT: ${{ github.event_name == 'schedule' && 5 || 1 }}
+        run: |
+          # Run the test suite based on RUN_COUNT
+          for i in $(seq $RUN_COUNT); do
+            echo "Running test suite - attempt $i of $RUN_COUNT"
+
+            # Run tests with unique output file per iteration
+            JEST_JUNIT_OUTPUT_DIR=./test-results JEST_JUNIT_OUTPUT_NAME=junit-$i.xml npm test -- --ci --maxWorkers=2 --reporters=default --reporters=jest-junit || true
+          done
+
+      # Debug: Check what files were created
+      - name: List test results
+        if: always()
+        run: |
+          echo "Contents of test-results directory:"
+          ls -la test-results/ || echo "test-results directory does not exist"
+          echo "Looking for XML files:"
+          find . -name "*.xml" -type f || echo "No XML files found"
+
+      # Upload all test results to CI Insights
+      - name: Upload test results
+        if: always()
+        uses: mergifyio/gha-mergify-ci@v6
+        with:
+          flaky_test_detection: 'true'
+          token: ${{ secrets.MERGIFY_TOKEN }}
+          report_path: test-results/*.xml

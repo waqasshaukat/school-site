@@ -1,0 +1,1509 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`Integration Tests - Flaky should match snapshot: homepage-1764678238672-fmpmx 1`] = `
+<div>
+  <div>
+    <div
+      class="hero"
+    >
+      <h1
+        class="mb-3"
+      >
+        Welcome to Springfield Elementary
+      </h1>
+      <p
+        class="mb-3"
+      >
+        Nurturing young minds for a bright future.
+      </p>
+    </div>
+    <div
+      class="container py-5"
+    >
+      <div
+        class="row text-center"
+      >
+        <div
+          class="col-md-4"
+        >
+          <h3>
+            About Us
+          </h3>
+          <p>
+            Learn about our mission, vision, and values.
+          </p>
+          <a
+            href="/about"
+          >
+            Learn More
+          </a>
+        </div>
+        <div
+          class="col-md-4"
+        >
+          <h3>
+            Academics
+          </h3>
+          <p>
+            Explore our curriculum and academic programs.
+          </p>
+          <a
+            href="/academics"
+          >
+            Explore
+          </a>
+        </div>
+        <div
+          class="col-md-4"
+        >
+          <h3>
+            News & Events
+          </h3>
+          <p>
+            Stay up-to-date with the latest school news and events.
+          </p>
+          <a
+            href="/news"
+          >
+            View News
+          </a>
+        </div>
+      </div>
+    </div>
+    <div
+      class="container py-5"
+    >
+      <div
+        class="row align-items-center"
+      >
+        <div
+          class="col-md-6"
+        >
+          <h2
+            class="mb-4"
+          >
+            Principal's Message
+          </h2>
+          <p
+            class="lead"
+          >
+            "Welcome to Springfield Elementary, where we are dedicated to fostering a love for learning in a supportive and engaging environment. Our goal is to empower every student to achieve their full potential, both academically and personally. We believe in a holistic approach to education, encouraging curiosity, creativity, and critical thinking. We look forward to partnering with you in your child's educational journey."
+          </p>
+          <p
+            class="mt-3"
+          >
+            - Principal Jane Doe
+          </p>
+        </div>
+        <div
+          class="col-md-6"
+          style="padding-left: 10%;"
+        >
+          <img
+            alt="Principal Waqas"
+            class="img-fluid rounded-circle shadow-lg"
+            height="400"
+            src="/Waqas.jpeg"
+            width="400"
+          />
+        </div>
+      </div>
+    </div>
+    <div>
+      Gallery Component
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Integration Tests - Flaky should match snapshot: homepage-1764678881141-hmtr5j 1`] = `
+<div>
+  <div>
+    <div
+      class="hero"
+    >
+      <h1
+        class="mb-3"
+      >
+        Welcome to Springfield Elementary
+      </h1>
+      <p
+        class="mb-3"
+      >
+        Nurturing young minds for a bright future.
+      </p>
+    </div>
+    <div
+      class="container py-5"
+    >
+      <div
+        class="row text-center"
+      >
+        <div
+          class="col-md-4"
+        >
+          <h3>
+            About Us
+          </h3>
+          <p>
+            Learn about our mission, vision, and values.
+          </p>
+          <a
+            href="/about"
+          >
+            Learn More
+          </a>
+        </div>
+        <div
+          class="col-md-4"
+        >
+          <h3>
+            Academics
+          </h3>
+          <p>
+            Explore our curriculum and academic programs.
+          </p>
+          <a
+            href="/academics"
+          >
+            Explore
+          </a>
+        </div>
+        <div
+          class="col-md-4"
+        >
+          <h3>
+            News & Events
+          </h3>
+          <p>
+            Stay up-to-date with the latest school news and events.
+          </p>
+          <a
+            href="/news"
+          >
+            View News
+          </a>
+        </div>
+      </div>
+    </div>
+    <div
+      class="container py-5"
+    >
+      <div
+        class="row align-items-center"
+      >
+        <div
+          class="col-md-6"
+        >
+          <h2
+            class="mb-4"
+          >
+            Principal's Message
+          </h2>
+          <p
+            class="lead"
+          >
+            "Welcome to Springfield Elementary, where we are dedicated to fostering a love for learning in a supportive and engaging environment. Our goal is to empower every student to achieve their full potential, both academically and personally. We believe in a holistic approach to education, encouraging curiosity, creativity, and critical thinking. We look forward to partnering with you in your child's educational journey."
+          </p>
+          <p
+            class="mt-3"
+          >
+            - Principal Jane Doe
+          </p>
+        </div>
+        <div
+          class="col-md-6"
+          style="padding-left: 10%;"
+        >
+          <img
+            alt="Principal Waqas"
+            class="img-fluid rounded-circle shadow-lg"
+            height="400"
+            src="/Waqas.jpeg"
+            width="400"
+          />
+        </div>
+      </div>
+    </div>
+    <div>
+      Gallery Component
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Integration Tests - Flaky should match snapshot: homepage-1764689481051-lw4lf 1`] = `
+<div>
+  <div>
+    <div
+      class="hero"
+    >
+      <h1
+        class="mb-3"
+      >
+        Welcome to Springfield Elementary
+      </h1>
+      <p
+        class="mb-3"
+      >
+        Nurturing young minds for a bright future.
+      </p>
+    </div>
+    <div
+      class="container py-5"
+    >
+      <div
+        class="row text-center"
+      >
+        <div
+          class="col-md-4"
+        >
+          <h3>
+            About Us
+          </h3>
+          <p>
+            Learn about our mission, vision, and values.
+          </p>
+          <a
+            href="/about"
+          >
+            Learn More
+          </a>
+        </div>
+        <div
+          class="col-md-4"
+        >
+          <h3>
+            Academics
+          </h3>
+          <p>
+            Explore our curriculum and academic programs.
+          </p>
+          <a
+            href="/academics"
+          >
+            Explore
+          </a>
+        </div>
+        <div
+          class="col-md-4"
+        >
+          <h3>
+            News & Events
+          </h3>
+          <p>
+            Stay up-to-date with the latest school news and events.
+          </p>
+          <a
+            href="/news"
+          >
+            View News
+          </a>
+        </div>
+      </div>
+    </div>
+    <div
+      class="container py-5"
+    >
+      <div
+        class="row align-items-center"
+      >
+        <div
+          class="col-md-6"
+        >
+          <h2
+            class="mb-4"
+          >
+            Principal's Message
+          </h2>
+          <p
+            class="lead"
+          >
+            "Welcome to Springfield Elementary, where we are dedicated to fostering a love for learning in a supportive and engaging environment. Our goal is to empower every student to achieve their full potential, both academically and personally. We believe in a holistic approach to education, encouraging curiosity, creativity, and critical thinking. We look forward to partnering with you in your child's educational journey."
+          </p>
+          <p
+            class="mt-3"
+          >
+            - Principal Jane Doe
+          </p>
+        </div>
+        <div
+          class="col-md-6"
+          style="padding-left: 10%;"
+        >
+          <img
+            alt="Principal Waqas"
+            class="img-fluid rounded-circle shadow-lg"
+            height="400"
+            src="/Waqas.jpeg"
+            width="400"
+          />
+        </div>
+      </div>
+    </div>
+    <div>
+      Gallery Component
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Integration Tests - Flaky should match snapshot: homepage-1764695938816-oyvl4j 1`] = `
+<div>
+  <div>
+    <div
+      class="hero"
+    >
+      <h1
+        class="mb-3"
+      >
+        Welcome to Springfield Elementary
+      </h1>
+      <p
+        class="mb-3"
+      >
+        Nurturing young minds for a bright future.
+      </p>
+    </div>
+    <div
+      class="container py-5"
+    >
+      <div
+        class="row text-center"
+      >
+        <div
+          class="col-md-4"
+        >
+          <h3>
+            About Us
+          </h3>
+          <p>
+            Learn about our mission, vision, and values.
+          </p>
+          <a
+            href="/about"
+          >
+            Learn More
+          </a>
+        </div>
+        <div
+          class="col-md-4"
+        >
+          <h3>
+            Academics
+          </h3>
+          <p>
+            Explore our curriculum and academic programs.
+          </p>
+          <a
+            href="/academics"
+          >
+            Explore
+          </a>
+        </div>
+        <div
+          class="col-md-4"
+        >
+          <h3>
+            News & Events
+          </h3>
+          <p>
+            Stay up-to-date with the latest school news and events.
+          </p>
+          <a
+            href="/news"
+          >
+            View News
+          </a>
+        </div>
+      </div>
+    </div>
+    <div
+      class="container py-5"
+    >
+      <div
+        class="row align-items-center"
+      >
+        <div
+          class="col-md-6"
+        >
+          <h2
+            class="mb-4"
+          >
+            Principal's Message
+          </h2>
+          <p
+            class="lead"
+          >
+            "Welcome to Springfield Elementary, where we are dedicated to fostering a love for learning in a supportive and engaging environment. Our goal is to empower every student to achieve their full potential, both academically and personally. We believe in a holistic approach to education, encouraging curiosity, creativity, and critical thinking. We look forward to partnering with you in your child's educational journey."
+          </p>
+          <p
+            class="mt-3"
+          >
+            - Principal Jane Doe
+          </p>
+        </div>
+        <div
+          class="col-md-6"
+          style="padding-left: 10%;"
+        >
+          <img
+            alt="Principal Waqas"
+            class="img-fluid rounded-circle shadow-lg"
+            height="400"
+            src="/Waqas.jpeg"
+            width="400"
+          />
+        </div>
+      </div>
+    </div>
+    <div>
+      Gallery Component
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Integration Tests - Flaky should match snapshot: homepage-1764696326413-rkrif7 1`] = `
+<div>
+  <div>
+    <div
+      class="hero"
+    >
+      <h1
+        class="mb-3"
+      >
+        Welcome to Springfield Elementary
+      </h1>
+      <p
+        class="mb-3"
+      >
+        Nurturing young minds for a bright future.
+      </p>
+    </div>
+    <div
+      class="container py-5"
+    >
+      <div
+        class="row text-center"
+      >
+        <div
+          class="col-md-4"
+        >
+          <h3>
+            About Us
+          </h3>
+          <p>
+            Learn about our mission, vision, and values.
+          </p>
+          <a
+            href="/about"
+          >
+            Learn More
+          </a>
+        </div>
+        <div
+          class="col-md-4"
+        >
+          <h3>
+            Academics
+          </h3>
+          <p>
+            Explore our curriculum and academic programs.
+          </p>
+          <a
+            href="/academics"
+          >
+            Explore
+          </a>
+        </div>
+        <div
+          class="col-md-4"
+        >
+          <h3>
+            News & Events
+          </h3>
+          <p>
+            Stay up-to-date with the latest school news and events.
+          </p>
+          <a
+            href="/news"
+          >
+            View News
+          </a>
+        </div>
+      </div>
+    </div>
+    <div
+      class="container py-5"
+    >
+      <div
+        class="row align-items-center"
+      >
+        <div
+          class="col-md-6"
+        >
+          <h2
+            class="mb-4"
+          >
+            Principal's Message
+          </h2>
+          <p
+            class="lead"
+          >
+            "Welcome to Springfield Elementary, where we are dedicated to fostering a love for learning in a supportive and engaging environment. Our goal is to empower every student to achieve their full potential, both academically and personally. We believe in a holistic approach to education, encouraging curiosity, creativity, and critical thinking. We look forward to partnering with you in your child's educational journey."
+          </p>
+          <p
+            class="mt-3"
+          >
+            - Principal Jane Doe
+          </p>
+        </div>
+        <div
+          class="col-md-6"
+          style="padding-left: 10%;"
+        >
+          <img
+            alt="Principal Waqas"
+            class="img-fluid rounded-circle shadow-lg"
+            height="400"
+            src="/Waqas.jpeg"
+            width="400"
+          />
+        </div>
+      </div>
+    </div>
+    <div>
+      Gallery Component
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Integration Tests - Flaky should match snapshot: homepage-1764696349102-qmzobw 1`] = `
+<div>
+  <div>
+    <div
+      class="hero"
+    >
+      <h1
+        class="mb-3"
+      >
+        Welcome to Springfield Elementary
+      </h1>
+      <p
+        class="mb-3"
+      >
+        Nurturing young minds for a bright future.
+      </p>
+    </div>
+    <div
+      class="container py-5"
+    >
+      <div
+        class="row text-center"
+      >
+        <div
+          class="col-md-4"
+        >
+          <h3>
+            About Us
+          </h3>
+          <p>
+            Learn about our mission, vision, and values.
+          </p>
+          <a
+            href="/about"
+          >
+            Learn More
+          </a>
+        </div>
+        <div
+          class="col-md-4"
+        >
+          <h3>
+            Academics
+          </h3>
+          <p>
+            Explore our curriculum and academic programs.
+          </p>
+          <a
+            href="/academics"
+          >
+            Explore
+          </a>
+        </div>
+        <div
+          class="col-md-4"
+        >
+          <h3>
+            News & Events
+          </h3>
+          <p>
+            Stay up-to-date with the latest school news and events.
+          </p>
+          <a
+            href="/news"
+          >
+            View News
+          </a>
+        </div>
+      </div>
+    </div>
+    <div
+      class="container py-5"
+    >
+      <div
+        class="row align-items-center"
+      >
+        <div
+          class="col-md-6"
+        >
+          <h2
+            class="mb-4"
+          >
+            Principal's Message
+          </h2>
+          <p
+            class="lead"
+          >
+            "Welcome to Springfield Elementary, where we are dedicated to fostering a love for learning in a supportive and engaging environment. Our goal is to empower every student to achieve their full potential, both academically and personally. We believe in a holistic approach to education, encouraging curiosity, creativity, and critical thinking. We look forward to partnering with you in your child's educational journey."
+          </p>
+          <p
+            class="mt-3"
+          >
+            - Principal Jane Doe
+          </p>
+        </div>
+        <div
+          class="col-md-6"
+          style="padding-left: 10%;"
+        >
+          <img
+            alt="Principal Waqas"
+            class="img-fluid rounded-circle shadow-lg"
+            height="400"
+            src="/Waqas.jpeg"
+            width="400"
+          />
+        </div>
+      </div>
+    </div>
+    <div>
+      Gallery Component
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Integration Tests - Flaky should match snapshot: homepage-1764696655930-v3ke8g 1`] = `
+<div>
+  <div>
+    <div
+      class="hero"
+    >
+      <h1
+        class="mb-3"
+      >
+        Welcome to Springfield Elementary
+      </h1>
+      <p
+        class="mb-3"
+      >
+        Nurturing young minds for a bright future.
+      </p>
+    </div>
+    <div
+      class="container py-5"
+    >
+      <div
+        class="row text-center"
+      >
+        <div
+          class="col-md-4"
+        >
+          <h3>
+            About Us
+          </h3>
+          <p>
+            Learn about our mission, vision, and values.
+          </p>
+          <a
+            href="/about"
+          >
+            Learn More
+          </a>
+        </div>
+        <div
+          class="col-md-4"
+        >
+          <h3>
+            Academics
+          </h3>
+          <p>
+            Explore our curriculum and academic programs.
+          </p>
+          <a
+            href="/academics"
+          >
+            Explore
+          </a>
+        </div>
+        <div
+          class="col-md-4"
+        >
+          <h3>
+            News & Events
+          </h3>
+          <p>
+            Stay up-to-date with the latest school news and events.
+          </p>
+          <a
+            href="/news"
+          >
+            View News
+          </a>
+        </div>
+      </div>
+    </div>
+    <div
+      class="container py-5"
+    >
+      <div
+        class="row align-items-center"
+      >
+        <div
+          class="col-md-6"
+        >
+          <h2
+            class="mb-4"
+          >
+            Principal's Message
+          </h2>
+          <p
+            class="lead"
+          >
+            "Welcome to Springfield Elementary, where we are dedicated to fostering a love for learning in a supportive and engaging environment. Our goal is to empower every student to achieve their full potential, both academically and personally. We believe in a holistic approach to education, encouraging curiosity, creativity, and critical thinking. We look forward to partnering with you in your child's educational journey."
+          </p>
+          <p
+            class="mt-3"
+          >
+            - Principal Jane Doe
+          </p>
+        </div>
+        <div
+          class="col-md-6"
+          style="padding-left: 10%;"
+        >
+          <img
+            alt="Principal Waqas"
+            class="img-fluid rounded-circle shadow-lg"
+            height="400"
+            src="/Waqas.jpeg"
+            width="400"
+          />
+        </div>
+      </div>
+    </div>
+    <div>
+      Gallery Component
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Integration Tests - Flaky should match snapshot: homepage-1764696673042-ck3gqg 1`] = `
+<div>
+  <div>
+    <div
+      class="hero"
+    >
+      <h1
+        class="mb-3"
+      >
+        Welcome to Springfield Elementary
+      </h1>
+      <p
+        class="mb-3"
+      >
+        Nurturing young minds for a bright future.
+      </p>
+    </div>
+    <div
+      class="container py-5"
+    >
+      <div
+        class="row text-center"
+      >
+        <div
+          class="col-md-4"
+        >
+          <h3>
+            About Us
+          </h3>
+          <p>
+            Learn about our mission, vision, and values.
+          </p>
+          <a
+            href="/about"
+          >
+            Learn More
+          </a>
+        </div>
+        <div
+          class="col-md-4"
+        >
+          <h3>
+            Academics
+          </h3>
+          <p>
+            Explore our curriculum and academic programs.
+          </p>
+          <a
+            href="/academics"
+          >
+            Explore
+          </a>
+        </div>
+        <div
+          class="col-md-4"
+        >
+          <h3>
+            News & Events
+          </h3>
+          <p>
+            Stay up-to-date with the latest school news and events.
+          </p>
+          <a
+            href="/news"
+          >
+            View News
+          </a>
+        </div>
+      </div>
+    </div>
+    <div
+      class="container py-5"
+    >
+      <div
+        class="row align-items-center"
+      >
+        <div
+          class="col-md-6"
+        >
+          <h2
+            class="mb-4"
+          >
+            Principal's Message
+          </h2>
+          <p
+            class="lead"
+          >
+            "Welcome to Springfield Elementary, where we are dedicated to fostering a love for learning in a supportive and engaging environment. Our goal is to empower every student to achieve their full potential, both academically and personally. We believe in a holistic approach to education, encouraging curiosity, creativity, and critical thinking. We look forward to partnering with you in your child's educational journey."
+          </p>
+          <p
+            class="mt-3"
+          >
+            - Principal Jane Doe
+          </p>
+        </div>
+        <div
+          class="col-md-6"
+          style="padding-left: 10%;"
+        >
+          <img
+            alt="Principal Waqas"
+            class="img-fluid rounded-circle shadow-lg"
+            height="400"
+            src="/Waqas.jpeg"
+            width="400"
+          />
+        </div>
+      </div>
+    </div>
+    <div>
+      Gallery Component
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Integration Tests - Flaky should match snapshot: homepage-1764696679672-dhurk 1`] = `
+<div>
+  <div>
+    <div
+      class="hero"
+    >
+      <h1
+        class="mb-3"
+      >
+        Welcome to Springfield Elementary
+      </h1>
+      <p
+        class="mb-3"
+      >
+        Nurturing young minds for a bright future.
+      </p>
+    </div>
+    <div
+      class="container py-5"
+    >
+      <div
+        class="row text-center"
+      >
+        <div
+          class="col-md-4"
+        >
+          <h3>
+            About Us
+          </h3>
+          <p>
+            Learn about our mission, vision, and values.
+          </p>
+          <a
+            href="/about"
+          >
+            Learn More
+          </a>
+        </div>
+        <div
+          class="col-md-4"
+        >
+          <h3>
+            Academics
+          </h3>
+          <p>
+            Explore our curriculum and academic programs.
+          </p>
+          <a
+            href="/academics"
+          >
+            Explore
+          </a>
+        </div>
+        <div
+          class="col-md-4"
+        >
+          <h3>
+            News & Events
+          </h3>
+          <p>
+            Stay up-to-date with the latest school news and events.
+          </p>
+          <a
+            href="/news"
+          >
+            View News
+          </a>
+        </div>
+      </div>
+    </div>
+    <div
+      class="container py-5"
+    >
+      <div
+        class="row align-items-center"
+      >
+        <div
+          class="col-md-6"
+        >
+          <h2
+            class="mb-4"
+          >
+            Principal's Message
+          </h2>
+          <p
+            class="lead"
+          >
+            "Welcome to Springfield Elementary, where we are dedicated to fostering a love for learning in a supportive and engaging environment. Our goal is to empower every student to achieve their full potential, both academically and personally. We believe in a holistic approach to education, encouraging curiosity, creativity, and critical thinking. We look forward to partnering with you in your child's educational journey."
+          </p>
+          <p
+            class="mt-3"
+          >
+            - Principal Jane Doe
+          </p>
+        </div>
+        <div
+          class="col-md-6"
+          style="padding-left: 10%;"
+        >
+          <img
+            alt="Principal Waqas"
+            class="img-fluid rounded-circle shadow-lg"
+            height="400"
+            src="/Waqas.jpeg"
+            width="400"
+          />
+        </div>
+      </div>
+    </div>
+    <div>
+      Gallery Component
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Integration Tests - Flaky should match snapshot: homepage-1764696684490-n2sdk 1`] = `
+<div>
+  <div>
+    <div
+      class="hero"
+    >
+      <h1
+        class="mb-3"
+      >
+        Welcome to Springfield Elementary
+      </h1>
+      <p
+        class="mb-3"
+      >
+        Nurturing young minds for a bright future.
+      </p>
+    </div>
+    <div
+      class="container py-5"
+    >
+      <div
+        class="row text-center"
+      >
+        <div
+          class="col-md-4"
+        >
+          <h3>
+            About Us
+          </h3>
+          <p>
+            Learn about our mission, vision, and values.
+          </p>
+          <a
+            href="/about"
+          >
+            Learn More
+          </a>
+        </div>
+        <div
+          class="col-md-4"
+        >
+          <h3>
+            Academics
+          </h3>
+          <p>
+            Explore our curriculum and academic programs.
+          </p>
+          <a
+            href="/academics"
+          >
+            Explore
+          </a>
+        </div>
+        <div
+          class="col-md-4"
+        >
+          <h3>
+            News & Events
+          </h3>
+          <p>
+            Stay up-to-date with the latest school news and events.
+          </p>
+          <a
+            href="/news"
+          >
+            View News
+          </a>
+        </div>
+      </div>
+    </div>
+    <div
+      class="container py-5"
+    >
+      <div
+        class="row align-items-center"
+      >
+        <div
+          class="col-md-6"
+        >
+          <h2
+            class="mb-4"
+          >
+            Principal's Message
+          </h2>
+          <p
+            class="lead"
+          >
+            "Welcome to Springfield Elementary, where we are dedicated to fostering a love for learning in a supportive and engaging environment. Our goal is to empower every student to achieve their full potential, both academically and personally. We believe in a holistic approach to education, encouraging curiosity, creativity, and critical thinking. We look forward to partnering with you in your child's educational journey."
+          </p>
+          <p
+            class="mt-3"
+          >
+            - Principal Jane Doe
+          </p>
+        </div>
+        <div
+          class="col-md-6"
+          style="padding-left: 10%;"
+        >
+          <img
+            alt="Principal Waqas"
+            class="img-fluid rounded-circle shadow-lg"
+            height="400"
+            src="/Waqas.jpeg"
+            width="400"
+          />
+        </div>
+      </div>
+    </div>
+    <div>
+      Gallery Component
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Integration Tests - Flaky should match snapshot: homepage-1764696717053-lttb05 1`] = `
+<div>
+  <div>
+    <div
+      class="hero"
+    >
+      <h1
+        class="mb-3"
+      >
+        Welcome to Springfield Elementary
+      </h1>
+      <p
+        class="mb-3"
+      >
+        Nurturing young minds for a bright future.
+      </p>
+    </div>
+    <div
+      class="container py-5"
+    >
+      <div
+        class="row text-center"
+      >
+        <div
+          class="col-md-4"
+        >
+          <h3>
+            About Us
+          </h3>
+          <p>
+            Learn about our mission, vision, and values.
+          </p>
+          <a
+            href="/about"
+          >
+            Learn More
+          </a>
+        </div>
+        <div
+          class="col-md-4"
+        >
+          <h3>
+            Academics
+          </h3>
+          <p>
+            Explore our curriculum and academic programs.
+          </p>
+          <a
+            href="/academics"
+          >
+            Explore
+          </a>
+        </div>
+        <div
+          class="col-md-4"
+        >
+          <h3>
+            News & Events
+          </h3>
+          <p>
+            Stay up-to-date with the latest school news and events.
+          </p>
+          <a
+            href="/news"
+          >
+            View News
+          </a>
+        </div>
+      </div>
+    </div>
+    <div
+      class="container py-5"
+    >
+      <div
+        class="row align-items-center"
+      >
+        <div
+          class="col-md-6"
+        >
+          <h2
+            class="mb-4"
+          >
+            Principal's Message
+          </h2>
+          <p
+            class="lead"
+          >
+            "Welcome to Springfield Elementary, where we are dedicated to fostering a love for learning in a supportive and engaging environment. Our goal is to empower every student to achieve their full potential, both academically and personally. We believe in a holistic approach to education, encouraging curiosity, creativity, and critical thinking. We look forward to partnering with you in your child's educational journey."
+          </p>
+          <p
+            class="mt-3"
+          >
+            - Principal Jane Doe
+          </p>
+        </div>
+        <div
+          class="col-md-6"
+          style="padding-left: 10%;"
+        >
+          <img
+            alt="Principal Waqas"
+            class="img-fluid rounded-circle shadow-lg"
+            height="400"
+            src="/Waqas.jpeg"
+            width="400"
+          />
+        </div>
+      </div>
+    </div>
+    <div>
+      Gallery Component
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Integration Tests - Flaky should match snapshot: homepage-1764696723289-g5uv5j 1`] = `
+<div>
+  <div>
+    <div
+      class="hero"
+    >
+      <h1
+        class="mb-3"
+      >
+        Welcome to Springfield Elementary
+      </h1>
+      <p
+        class="mb-3"
+      >
+        Nurturing young minds for a bright future.
+      </p>
+    </div>
+    <div
+      class="container py-5"
+    >
+      <div
+        class="row text-center"
+      >
+        <div
+          class="col-md-4"
+        >
+          <h3>
+            About Us
+          </h3>
+          <p>
+            Learn about our mission, vision, and values.
+          </p>
+          <a
+            href="/about"
+          >
+            Learn More
+          </a>
+        </div>
+        <div
+          class="col-md-4"
+        >
+          <h3>
+            Academics
+          </h3>
+          <p>
+            Explore our curriculum and academic programs.
+          </p>
+          <a
+            href="/academics"
+          >
+            Explore
+          </a>
+        </div>
+        <div
+          class="col-md-4"
+        >
+          <h3>
+            News & Events
+          </h3>
+          <p>
+            Stay up-to-date with the latest school news and events.
+          </p>
+          <a
+            href="/news"
+          >
+            View News
+          </a>
+        </div>
+      </div>
+    </div>
+    <div
+      class="container py-5"
+    >
+      <div
+        class="row align-items-center"
+      >
+        <div
+          class="col-md-6"
+        >
+          <h2
+            class="mb-4"
+          >
+            Principal's Message
+          </h2>
+          <p
+            class="lead"
+          >
+            "Welcome to Springfield Elementary, where we are dedicated to fostering a love for learning in a supportive and engaging environment. Our goal is to empower every student to achieve their full potential, both academically and personally. We believe in a holistic approach to education, encouraging curiosity, creativity, and critical thinking. We look forward to partnering with you in your child's educational journey."
+          </p>
+          <p
+            class="mt-3"
+          >
+            - Principal Jane Doe
+          </p>
+        </div>
+        <div
+          class="col-md-6"
+          style="padding-left: 10%;"
+        >
+          <img
+            alt="Principal Waqas"
+            class="img-fluid rounded-circle shadow-lg"
+            height="400"
+            src="/Waqas.jpeg"
+            width="400"
+          />
+        </div>
+      </div>
+    </div>
+    <div>
+      Gallery Component
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Integration Tests - Flaky should match snapshot: homepage-1764696729409-jck4f8 1`] = `
+<div>
+  <div>
+    <div
+      class="hero"
+    >
+      <h1
+        class="mb-3"
+      >
+        Welcome to Springfield Elementary
+      </h1>
+      <p
+        class="mb-3"
+      >
+        Nurturing young minds for a bright future.
+      </p>
+    </div>
+    <div
+      class="container py-5"
+    >
+      <div
+        class="row text-center"
+      >
+        <div
+          class="col-md-4"
+        >
+          <h3>
+            About Us
+          </h3>
+          <p>
+            Learn about our mission, vision, and values.
+          </p>
+          <a
+            href="/about"
+          >
+            Learn More
+          </a>
+        </div>
+        <div
+          class="col-md-4"
+        >
+          <h3>
+            Academics
+          </h3>
+          <p>
+            Explore our curriculum and academic programs.
+          </p>
+          <a
+            href="/academics"
+          >
+            Explore
+          </a>
+        </div>
+        <div
+          class="col-md-4"
+        >
+          <h3>
+            News & Events
+          </h3>
+          <p>
+            Stay up-to-date with the latest school news and events.
+          </p>
+          <a
+            href="/news"
+          >
+            View News
+          </a>
+        </div>
+      </div>
+    </div>
+    <div
+      class="container py-5"
+    >
+      <div
+        class="row align-items-center"
+      >
+        <div
+          class="col-md-6"
+        >
+          <h2
+            class="mb-4"
+          >
+            Principal's Message
+          </h2>
+          <p
+            class="lead"
+          >
+            "Welcome to Springfield Elementary, where we are dedicated to fostering a love for learning in a supportive and engaging environment. Our goal is to empower every student to achieve their full potential, both academically and personally. We believe in a holistic approach to education, encouraging curiosity, creativity, and critical thinking. We look forward to partnering with you in your child's educational journey."
+          </p>
+          <p
+            class="mt-3"
+          >
+            - Principal Jane Doe
+          </p>
+        </div>
+        <div
+          class="col-md-6"
+          style="padding-left: 10%;"
+        >
+          <img
+            alt="Principal Waqas"
+            class="img-fluid rounded-circle shadow-lg"
+            height="400"
+            src="/Waqas.jpeg"
+            width="400"
+          />
+        </div>
+      </div>
+    </div>
+    <div>
+      Gallery Component
+    </div>
+  </div>
+</div>
+`;

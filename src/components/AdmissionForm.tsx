@@ -44,7 +44,7 @@ const AdmissionForm = () => {
         setStatus('An error occurred. Please try again.');
         setStatusType('error');
       }
-    } catch (error) {
+    } catch {
       setStatus('An error occurred. Please try again.');
       setStatusType('error');
     }
