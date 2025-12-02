@@ -34,12 +34,8 @@ jobs:
           for i in $(seq $RUN_COUNT); do
             echo "Running test suite - attempt $i of $RUN_COUNT"
 
-            # Set unique output filename for each run
-            export JEST_JUNIT_OUTPUT_NAME="junit-run-$i.xml"
-
-            # Run tests and continue even if they fail (|| true ensures exit code 0)
-            # --passWithNoTests ensures Jest completes even with no tests
-            npm test -- --ci --maxWorkers=2 --passWithNoTests --reporters=default --reporters=jest-junit || true
+            # Run tests with unique output file per iteration
+            JEST_JUNIT_OUTPUT_DIR=./test-results JEST_JUNIT_OUTPUT_NAME=junit-$i.xml npm test -- --ci --maxWorkers=2 --reporters=default --reporters=jest-junit || true
           done
 
       # Debug: Check what files were created
