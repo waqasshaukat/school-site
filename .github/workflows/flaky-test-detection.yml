@@ -37,9 +37,19 @@ jobs:
             # Set unique output filename for each run
             export JEST_JUNIT_OUTPUT_NAME="junit-run-$i.xml"
 
-            # Run your test command with unique output file
-            npm test -- --ci --maxWorkers=2 --reporters=default --reporters=jest-junit
+            # Run tests and continue even if they fail (|| true ensures exit code 0)
+            # --passWithNoTests ensures Jest completes even with no tests
+            npm test -- --ci --maxWorkers=2 --passWithNoTests --reporters=default --reporters=jest-junit || true
           done
+
+      # Debug: Check what files were created
+      - name: List test results
+        if: always()
+        run: |
+          echo "Contents of test-results directory:"
+          ls -la test-results/ || echo "test-results directory does not exist"
+          echo "Looking for XML files:"
+          find . -name "*.xml" -type f || echo "No XML files found"
 
       # Upload all test results to CI Insights
       - name: Upload test results
