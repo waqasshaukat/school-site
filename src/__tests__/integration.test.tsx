@@ -1,11 +1,11 @@
 import React from 'react';
-import { render, screen, fireEvent, waitFor } from '@testing-library/react';
+import { render, screen, fireEvent } from '@testing-library/react';
 import HomePage from '../app/page';
 
 // Mock Next.js components
 jest.mock('next/image', () => ({
   __esModule: true,
-  default: (props: any) => {
+  default: (props: React.ImgHTMLAttributes<HTMLImageElement>) => {
     // eslint-disable-next-line @next/next/no-img-element, jsx-a11y/alt-text
     return <img {...props} />;
   },
@@ -13,7 +13,7 @@ jest.mock('next/image', () => ({
 
 jest.mock('next/link', () => ({
   __esModule: true,
-  default: ({ children, href }: any) => <a href={href}>{children}</a>,
+  default: ({ children, href }: { children: React.ReactNode; href: string }) => <a href={href}>{children}</a>,
 }));
 
 jest.mock('@/components/Gallery', () => ({
@@ -45,7 +45,7 @@ describe('Integration Tests - Flaky', () => {
     const links = screen.getAllByRole('link');
 
     // FLAKY: Clicking multiple elements rapidly can cause race conditions
-    const promises = links.map((link, index) => {
+    const promises = links.map((link) => {
       return new Promise((resolve) => {
         setTimeout(() => {
           fireEvent.click(link);

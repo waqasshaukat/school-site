@@ -8,7 +8,7 @@ jest.mock('fs');
 jest.mock('exceljs');
 
 describe('Submit Form API - Flaky Tests', () => {
-  const mockRequest = (body: any) => {
+  const mockRequest = (body: Record<string, string>) => {
     return {
       json: async () => body,
     } as NextRequest;
@@ -197,7 +197,6 @@ describe('Submit Form API - Flaky Tests', () => {
 
   // FLAKY TEST 7: Path handling with OS-specific behavior
   it('should handle file paths correctly', () => {
-    const dataDir = path.resolve(process.cwd(), 'data');
     const filePath = path.join('/tmp', 'admissions.xlsx');
 
     // FLAKY: Behavior differs between Windows and Unix-like systems
@@ -234,8 +233,6 @@ describe('Submit Form API - Flaky Tests', () => {
 
   // FLAKY TEST 9: Floating point comparison
   it('should calculate file size accurately', async () => {
-    const mockStatSync = jest.spyOn(fs, 'statSync');
-
     // Simulate file size calculation
     const fileSize = 1024.5;
     const fileSizeInKB = fileSize / 1024;

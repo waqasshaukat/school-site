@@ -32,7 +32,7 @@ export async function POST(req: NextRequest) {
           { header: 'Message', key: 'message', width: 50 },
         ];
       }
-    } catch (error) {
+    } catch {
       worksheet = workbook.addWorksheet('Admissions');
       worksheet.columns = [
         { header: 'Student Name', key: 'studentName', width: 30 },

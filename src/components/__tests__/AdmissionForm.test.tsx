@@ -184,7 +184,7 @@ describe('AdmissionForm - Flaky Tests', () => {
 
   // FLAKY TEST 7: Improper cleanup causing test pollution
   it('should render form and pollute global state', async () => {
-    // @ts-ignore
+    // @ts-expect-error - Intentionally polluting global state for flaky test
     global.testPollution = 'dirty state';
 
     render(<AdmissionForm />);
@@ -197,7 +197,7 @@ describe('AdmissionForm - Flaky Tests', () => {
 
   it('should fail if previous test polluted state', () => {
     // FLAKY: Fails if previous test ran before this one
-    // @ts-ignore
+    // @ts-expect-error - Checking for global pollution from previous test
     expect(global.testPollution).toBeUndefined();
   });
 
